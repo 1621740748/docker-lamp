@@ -1,0 +1,283 @@
+[ 2021-01-16T20:09:07+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:09:07+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/wxlogin?code=051ryKFa100zlA00uTFa1o8QMj1ryKFF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: openid /var/www/html/restaurant/Application/Api/Controller/UserController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2021-01-16T20:09:11+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:09:12+08:00 ] 192.168.0.105 /restaurant/index.php/api/menu/get_menus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`image`,`price`,`description` FROM `menu` WHERE ( status=1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2021-01-16T20:09:18+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2021-01-16T20:09:20+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0002s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:09:21+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0002s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:09:27+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2021-01-16T20:09:29+08:00 ] 192.168.0.105 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:09:50+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:09:52+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/wxlogin?code=041Fir000ZjS0L17rx300oxQB62Fir0N
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: openid /var/www/html/restaurant/Application/Api/Controller/UserController.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2021-01-16T20:09:53+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2021-01-16T20:09:56+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:10:00+08:00 ] 192.168.0.103 /restaurant/index.php/api/menu/get_menus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0006s ]
+SQL: SELECT `name`,`image`,`price`,`description` FROM `menu` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2021-01-16T20:10:01+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2021-01-16T20:10:04+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:10:13+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2021-01-16T20:10:16+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:10:20+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0003s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:10:38+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2021-01-16T20:10:40+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0002s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:10:49+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0002s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
+[ 2021-01-16T20:10:52+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/my_queue?gusetId=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `queue` WHERE `guest_id` = 'undefined' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2021-01-16T20:10:54+08:00 ] 192.168.0.103 /restaurant/index.php/api/user/queues
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`label`,`description` FROM `category`  [ RunTime:0.0002s ]
+ERR: Think\Model:get_queue_count方法不存在！
+
